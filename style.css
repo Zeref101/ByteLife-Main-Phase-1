@@ -17,7 +17,24 @@ dl, ol, ul {
   margin-bottom: 0;
   padding: 0;
 }
-
+.social-list{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li div{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li div a{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .hide {
   display: none !important;
 }
@@ -296,6 +313,9 @@ align-content: center;
 animation: backandforth 1.5s infinite linear;
 }
 .arrow-animation a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 15%;
 }
 
@@ -340,9 +360,12 @@ animation: backandforth 1.5s infinite linear;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100px;
+  height: 50%;
+  width: 10vw;
+  /* width: 100px; */
   font-size: 2em;
   color: #fff;
+  object-fit: contain!important;
   transition: transform 0.5s;
 }
 
@@ -1666,7 +1689,8 @@ left: 0; */
     
   } */
   .social {
-    font-size: 3em;
+    /* font-size: 3em; */
+    width: 20vw;
   }
   .poem-a-day {
     width: 90px;
@@ -1722,7 +1746,7 @@ left: 0; */
   .arrow-animation a{
     width: 23%;
   }
-
+}
   @media (max-width: 768px) {
     .fixing {
       position: relative;
